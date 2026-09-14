@@ -53,8 +53,6 @@ public class MecanumDrivetrain {
         backLeft.setPower(blPower);
         backRight.setPower(brPower);
     }
-
-    //sets robot at halfspeed when a button is held
     public void slowDrive() {
         frontLeft.setPower(flPower / 2);
         frontRight.setPower(frPower / 2);
